@@ -9,7 +9,7 @@ module.exports={
   "test": {
     "username": "root",
     "password": null,
-    "database": "database_test",
+    "database": "db_clob",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
@@ -21,3 +21,11 @@ module.exports={
     "dialect": "mysql"
   }
 }
+/* ,
+  "production": {
+    "username": process.env.USERNAME,
+    "password": process.env.PASSWORD,
+    "database": process.env.DATABASE,
+    "host": process.env.HOST,
+    "dialect": "mysql"
+  } */

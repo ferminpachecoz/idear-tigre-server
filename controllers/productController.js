@@ -27,7 +27,7 @@ const productController={
       where: {
         id: req.body.id
       },
-      include: [{association: "images"}]
+      include: [{association: "images"}, {association: "category"}]
     })
     .then(data => res.status(200).json(data))
   },
