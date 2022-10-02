@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
 });
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
-    cb(null, path.join('../client/public/images'))
+    cb(null, path.join('./public/images'))
   },
   filename: function (req, file, cb) {
     cb(null, file.originalname)
