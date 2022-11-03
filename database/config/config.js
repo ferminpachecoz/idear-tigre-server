@@ -2,21 +2,21 @@ module.exports={
   "development": {
     "username": "b6a566056962bc",
     "password": "a089a25f",
-    "database": "heroku_f44fa16657d6fad?reconnect=true",
+    "database": "heroku_f44fa16657d6fad",
     "host": "us-cdbr-east-06.cleardb.net",
     "dialect": "mysql"
   },
   "test": {
     "username": "b6a566056962bc",
     "password": "a089a25f",
-    "database": "heroku_f44fa16657d6fad?reconnect=true",
+    "database": "heroku_f44fa16657d6fad",
     "host": "us-cdbr-east-06.cleardb.net",
     "dialect": "mysql"
   },
   "production": {
     "username": "b6a566056962bc",
     "password": "a089a25f",
-    "database": "heroku_f44fa16657d6fad?reconnect=true",
+    "database": "heroku_f44fa16657d6fad",
     "host": "us-cdbr-east-06.cleardb.net",
     "dialect": "mysql"
   }
