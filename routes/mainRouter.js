@@ -18,5 +18,10 @@ router.get('/images', mainController.getImages)
 router.post('/delete-image', mainController.deleteImage)
 router.post('/equipo', upload.single('file'), mainController.addEquipo)
 router.get('/equipo', mainController.getEquipo)
+router.post('/delete-equipo', mainController.deleteEquipo)
+router.post('/voluntario', upload.single('image'), mainController.addVoluntario)
+router.get('/voluntario', mainController.getVoluntario)
+router.post('/delete-voluntario', mainController.deleteVoluntario)
+router.post('/editar-voluntario', upload.single('image'), mainController.editVoluntario)
 
 module.exports = router;
