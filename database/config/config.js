@@ -1,23 +1,23 @@
 module.exports={
   "development": {
-    "username": "b6a566056962bc",
-    "password": "a089a25f",
-    "database": "heroku_f44fa16657d6fad",
-    "host": "us-cdbr-east-06.cleardb.net",
+    "username": "idea_admin",
+    "password": "pacheco2002",
+    "database": "idea_server",
+    "host": "179.61.219.130",
     "dialect": "mysql"
   },
   "test": {
-    "username": "b6a566056962bc",
-    "password": "a089a25f",
-    "database": "heroku_f44fa16657d6fad",
-    "host": "us-cdbr-east-06.cleardb.net",
+    "username": "idea_admin",
+    "password": "pacheco2002",
+    "database": "idea_server",
+    "host": "179.61.219.130",
     "dialect": "mysql"
   },
   "production": {
-    "username": "b6a566056962bc",
-    "password": "a089a25f",
-    "database": "heroku_f44fa16657d6fad",
-    "host": "us-cdbr-east-06.cleardb.net",
+    "username": "idea_admin",
+    "password": "pacheco2002",
+    "database": "idea_server",
+    "host": "179.61.219.130",
     "dialect": "mysql"
   }
 }

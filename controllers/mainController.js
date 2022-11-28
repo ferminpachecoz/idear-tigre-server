@@ -16,7 +16,8 @@ module.exports={
       title: req.body.title,
       startDate: req.body.startDate,
       endDate: req.body.endDate,
-      allDay: req.body.allDay
+      allDay: req.body.allDay,
+      notes: req.body.notes
     })
       .then(data => res.status(200).json(data))
 
@@ -156,7 +157,7 @@ module.exports={
         })
     }else{
       db.Voluntario.update({...req.body}, {where:{id:req.body.id}})
-        .then(data => res.status(200).json(data))
+        .then(data => res.status(200).json(req.body))
     }
   }
 }

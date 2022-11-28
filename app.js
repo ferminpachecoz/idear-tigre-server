@@ -8,7 +8,7 @@ let session = require('express-session')
 const mainRouter = require('./routes/mainRouter.js');
 const userRouter = require('./routes/userRouter.js');
 
-const port = process.env.PORT || '3001'
+const port = process.env.PORT || '3001';
 
 let app = express();
 

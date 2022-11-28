@@ -19,6 +19,9 @@ module.exports = function(sequelize, dataTypes){
       allDay: {
           type: dataTypes.BOOLEAN
       },
+      notes: {
+        type: dataTypes.STRING
+      }
   }
 
   let config = {
