@@ -2,12 +2,13 @@ const express = require('express');
 const router = express.Router();
 const mainController = require('../controllers/mainController');
 const multer = require('multer');
+let path = require('path');
 
 const storage = multer.memoryStorage()
 const upload = multer({storage: storage});
 
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Idear Server' });
+  res.sendFile(path.join(__dirname+'/index.html'));
 });
 router.get('/actividades', mainController.list);
 router.post('/actividades', mainController.create);

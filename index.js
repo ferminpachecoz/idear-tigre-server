@@ -5,16 +5,12 @@ const cors = require('cors');
 const dotenv = require("dotenv");
 let session = require('express-session')
 
-const mainRouter = require('./routes/mainRouter.js');
-const userRouter = require('./routes/userRouter.js');
+const mainRouter = require('./api/mainRouter.js');
+const userRouter = require('./api/userRouter.js');
 
 const port = process.env.PORT || '3001';
 
 let app = express();
-
-// view engine setup
-app.set('views', './views');
-app.set('view engine', 'jade');
 
 dotenv.config();
 
